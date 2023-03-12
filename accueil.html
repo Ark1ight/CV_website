@@ -1,0 +1,86 @@
+<!DOCTIPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="accueil.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+        <title>Accueil</title>
+
+    </head>
+    
+    <body>
+        
+        <div class="background div">
+
+          
+         
+          <link
+          rel="stylesheet"
+          href="https://unpkg.com/swiper/swiper-bundle.min.css"
+          />
+          <nav>
+            <ul>
+                <li><a href="Parcours.html">Parcours</a></li>
+                <li><a href="Projets.html">Projets</a></li>
+                <li><a href="#">Expériences</a></li>
+                <li><a href="Contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="articles background">
+        <p>Bonjour, je m'appelle Benoît Suy.<br/>
+          A travers ce site, je présente<br/>
+          l'ensemble de mes réalisations ainsi que mon parcours.<br/>
+          J'essaierai d'être le plus clair possible.<br/>
+          N'hésitez pas à me faire des retours si il y a des corrections à faire.<br/>
+          Si vous souhaitez me contacter, cliquez sur "Contacts".</p>
+
+
+
+          
+          
+          <section class="IMG">
+            <!-- Swiper  -->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide img1">
+                </div>
+                <div class="swiper-slide img2">
+                </div>
+                <div class="swiper-slide img3">
+                </div>
+                <div class="swiper-slide img4">
+                </div>
+
+              </div>
+              
+            </div>
+          </section>
+
+         
+
+        </div>
+          <!-- Swiper JS -->
+          <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+            delay: 3500,
+            disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            });
+          </script>
+    </body>
+</html>

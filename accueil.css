@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Polices/Montserrat/static/Montserrat-Light.ttf);
+}
+
+
+
+*{
+    height: fit-content;
+    top: 0%;
+    margin: 0px; 
+   }
+
+   img{
+    position: relative;
+    height: 13cm;
+    width: 10cm;
+    top: 35%;
+   }
+   
+   body{
+     font-family: 'Montserrat';
+     font-weight: 200;
+     font-size: larger;
+   
+     color: aliceblue;
+     background: url("Images/FR_Norm.jpg") center 0 no-repeat fixed;
+     background-size: cover;
+     width: 100%;
+   
+   }
+   
+   /* barre de menu */
+   nav{
+     width: 60%;
+     min-width: 60%;
+     height: 80px;
+     background-color: rgb(62, 63, 63);
+     position: relative;
+     top: 20%;
+     left: 20%;
+   
+   }
+   
+   
+   ul{
+     background-color: rgb(62, 63, 63);
+   }
+   
+   ul li {
+     list-style: none;
+     display:inline-block;
+     line-height: 80px;
+     
+   
+   }
+   
+   
+   ul li a{
+   display: block;
+   text-decoration: none;
+   font-size: 20px;
+   color: white;
+   font-family: 'MontSerrat';
+   padding: 0 20px;
+   background-color: rgb(62, 63, 63);
+   
+   }
+   
+   ul li a:hover{
+   color: #FFCB9A;
+   }
+   /*end*/
+   
+   
+p{
+  position: relative;
+  top: 55%;
+  left: 2%;
+  background-color: #0d4f50;
+  height: fit-content;
+  width: 25%;
+  max-width: 25%;
+  padding: 1%;
+  z-index: 2;
+}
+   
+   
+.div {
+  align-items: center;
+  padding: 5px;
+   
+}
+   
+   
+.articles{
+  display: flex;   
+  flex-wrap: wrap;
+  justify-content: center;
+     
+  margin: 0% 20% ;
+}
+   
+.articles section{
+  width: 30%;
+  padding: 50px 0px 0px 0px;
+}
+   
+.articles section.IMG{
+  width: 70%;
+}
+   
+.articles.background {
+   
+  background-color:  #116466;
+  padding: 100px 10px 131px 0px;
+     
+}
+   
+   
+.swiper {
+  height: 60vh;
+  width: auto;
+ --swiper-theme-color:#262625;
+   
+}
+   
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  background-repeat: no-repeat;
+}
+    
+
+
+
+/* Slider images  */
+.img1{
+  background-image: url("Images/pose");
+  background-size: cover;
+   
+}
+
+.img2{
+  background-image: url("Images/background.jpg");
+  background-size: cover;
+}
+
+.img3{
+  background-image: url("Images/JP_2.jpg");
+  background-size: cover;
+}
+
+.img4{
+  background-image: url("Images/CAN/snow2.jpg");
+  background-size: cover;
+  
+}
+   
+
+
+@media screen and (max-width:1400px) {
+
+  ul li a{
+    font-size: 13px;
+
+
+  }
+
+
+  p{
+    font-size: 12px;
+  }
+
+  .swiper{
+    height: 40vh;
+
+  }
+    
+}
